@@ -1,0 +1,43 @@
+.uk-notify {
+	width: 50%;
+}
+
+.work-break {
+	word-break: break-all
+}
+
+body {
+	padding: 20px;
+}
+
+.uk-grid tr {
+	border: 1px solid #e5e5e5
+}
+
+.uk-grid thead {
+	background-color: #444444;
+	color: #fff1f0;
+}
+
+.uk-grid table {
+	background-color: #FFFFFF
+}
+
+.uk-alert {
+	border: 1px solid #e5e5e5
+}
+
+.method-area {
+	background-color: #e4e4e4;
+}
+
+.method-title {
+	cursor: pointer;
+}
+.method-title:hover {
+	background-color: #808080;
+}
+.icon-top {
+	position: fixed;
+	bottom: 10px;
+}
