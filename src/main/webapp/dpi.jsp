@@ -77,7 +77,7 @@
 									  <option value="4">本月</option>
 									</select>
                                 </td>
-                                <td v-if="paramElement.name == 'startTime' || paramElement.name == 'endTime'">
+                                <td v-if="paramElement.name == 'startTime' || paramElement.name == 'endTime' || paramElement.name == 'time'">
 									<input size="16" readonly class="form_datetime" type="text" id="{{methodInfo.name}}-{{paramElement.name}}"placeholder="{{paramElement.name}}">
                                 </td>
                                 <td v-if="paramElement.name == 'pageSize'">
@@ -185,7 +185,7 @@
         	}
             var urlData = "dpi.action?route=" + encodeURI(methodElement.route) + "&";
         	for (var idx in metaData){
-        		urlData += idx + "=" + encodeURI(metaData[idx]) + "&time="+new Date().getTime() + "&";
+        		urlData += idx + "=" + encodeURI(metaData[idx]) + "&";
         	}
             
             for(idx in methodElement.paramElements){

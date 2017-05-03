@@ -41,8 +41,8 @@ public class DpiServlet extends HttpServlet {
 		doGet(req, resp);
 	}
 
-	private static final List<String> excluded = Arrays.asList("endPoint","route","startTime", "endTime");
-	private static final List<String> tsFields = Arrays.asList("startTime", "endTime");
+	private static final List<String> excluded = Arrays.asList("endPoint","route","startTime", "endTime", "time");
+	private static final List<String> tsFields = Arrays.asList("startTime", "endTime", "time");
 	private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 	
 	private void requestApi(HttpServletRequest req, HttpServletResponse resp) throws IOException, ParseException {

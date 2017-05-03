@@ -16,6 +16,10 @@ var data = [ {
 		"name" : "peroid",
 		"clazz" : "int",
 		"desc" : "1: 当前小时, 2：当天, 3： 本周, 4： 本月"
+	}, {
+		"name" : "time",
+		"clazz" : "date",
+		"desc" : "data time"
 	} ],
 	"httpMethod" : "POST",
 	"desc" : "Top 10 Application be accessed for specified scopes."
@@ -34,6 +38,10 @@ var data = [ {
 		"name" : "peroid",
 		"clazz" : "int",
 		"desc" : "1: 当前小时, 2：当天, 3： 本周, 4： 本月"
+	}, {
+		"name" : "time",
+		"clazz" : "date",
+		"desc" : "data time"
 	} ],
 	"httpMethod" : "POST",
 	"desc" : "Top 10 Website be accessed for specified scopes."
@@ -52,6 +60,10 @@ var data = [ {
 		"name" : "peroid",
 		"clazz" : "int",
 		"desc" : "1: 当前小时, 2：当天, 3： 本周, 4： 本月"
+	}, {
+		"name" : "time",
+		"clazz" : "date",
+		"desc" : "data time"
 	} ],
 	"httpMethod" : "POST",
 	"desc" : "Top 10 Application with most traffic for specified scopes."
